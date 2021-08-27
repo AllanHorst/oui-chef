@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_08_27_101819) do
     t.string "author_tip"
     t.string "budget"
     t.string "prep_time"
-    t.integer "rate"
+    t.string "rate"
     t.integer "country_code"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
